@@ -8,3 +8,10 @@ const indexesKey = [ options.address,
                      options.fd ].join(':');
 ``` 
 It simplify to concat all options to generate a unique indexes. We also can use this to generate a url. 
+
+---
+Different `+` and `parseInt` to convert to int.
+```javascript
+  console.log(+null)            //print 0
+  console.log(parseInt(null))   //print NaN
+``` 
